@@ -1,0 +1,30 @@
+{
+    "name": "react-tester",
+    "version": "0.0.1",
+    "description": "A playground for getting a React app setup",
+    "main": "index.js",
+    "author": "Crispin Merriman",
+    "license": "MIT",
+    "config": {
+        "port": ""
+    },
+    "scripts": {
+        "start": "echo Running server from $npm_package_config_port || 8080",
+        "old-start": "webpack-dev-server --port 10000 --progress --colors --config webpack.config.js",
+        "build": "webpack --config webpack.config.js"
+    },
+    "dependencies": {
+        "babel-core": "^6.18.2",
+        "babel-loader": "^6.2.9",
+        "babel-preset-es2015": "^6.18.0",
+        "babel-preset-react": "^6.16.0",
+        "css-loader": "^0.26.1",
+        "node-sass": "^3.13.0",
+        "react": "^15.4.1",
+        "react-dom": "^15.4.1",
+        "sass-loader": "^4.0.2",
+        "style-loader": "^0.13.1",
+        "webpack": "^1.14.0",
+        "webpack-dev-server": "^1.16.2"
+    }
+}
